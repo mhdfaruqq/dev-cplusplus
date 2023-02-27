@@ -11,7 +11,7 @@ Drink::Drink() {
 }
 
 
-Drink::Drink(string &type, string &size)
+Drink::Drink(string type)
         : type{type}, size{size} {
 
 }
@@ -35,7 +35,9 @@ void Drink::drink_setter(std::string type_val) {
         price = 1.50;
     else if (size == "MEDIUM")
         price = 2.50;
-    else
+    else if (size == "BIG")
         price = 3.50;
+    else
+        cout << "SMALL, MEDUIM or BIG" << endl;
 
 }

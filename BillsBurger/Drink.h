@@ -13,7 +13,7 @@ public:
 //    Drink(std::string type_val, std::string size_val, double price_val);
 
     Drink();
-    Drink(std::string &type, std::string &size);
+    Drink(std::string type);
 
     void drink_setter(std::string type_val);
     std::string get_drink_type();

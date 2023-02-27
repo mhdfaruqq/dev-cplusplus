@@ -9,8 +9,8 @@ Burger::Burger() {
     price = 3.00;
 }
 
-Burger::Burger(string name_val, string type_val)
-    : name(name_val), type(type_val) {
+Burger::Burger(string name_val, string type_val, string toppings_val)
+    : name(name_val), type(type_val), toppings(toppings_val) {
 
 }
 

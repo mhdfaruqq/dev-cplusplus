@@ -13,7 +13,7 @@ private:
 
 public:
     Burger();
-    Burger(std::string name, std::string type);
+    Burger(std::string name, std::string type, std::string toppings);
 
     double get_burger_price();
     std::string get_burger_name();
