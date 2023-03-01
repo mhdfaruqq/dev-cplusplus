@@ -9,9 +9,9 @@ Side_Item::Side_Item() {
     price = 1.15;
 }
 
-Side_Item::Side_Item(string &type_val)
+Side_Item::Side_Item(string type_val)
     :type(type_val) {
-
+    side_setter(type);
 }
 
 double Side_Item::get_side_price() {

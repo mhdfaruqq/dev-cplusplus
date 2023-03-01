@@ -11,7 +11,7 @@ private:
 
 public:
     Side_Item();
-    Side_Item(std::string &type);
+    Side_Item(std::string type);
 
     std::string get_side_type();
     double get_side_price();
