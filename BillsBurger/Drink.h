@@ -7,7 +7,7 @@ class Drink {
 private:
     std::string type;
     std::string size;
-    double price;
+    double price{};
 
 public:
 //    Drink(std::string type_val, std::string size_val, double price_val);

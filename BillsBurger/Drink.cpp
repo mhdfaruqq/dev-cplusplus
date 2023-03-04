@@ -11,8 +11,8 @@ Drink::Drink() {
 }
 
 
-Drink::Drink(string type)
-        : type{type}, size{size} {
+Drink::Drink(string type_val)
+        : type(type_val) {
 
 }
 
